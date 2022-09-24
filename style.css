@@ -3,12 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 body
 {
     background-color: #0a192f;
-    color:  #64daff    ;
+    color:  #808995    ;
     font-family: 'Poppins', sans-serif;
 }
 .hi
@@ -20,7 +20,7 @@ body
     font-size: 64px;
     color: #C1CFE1;
 }
-h3
+.description
 {
     font-size: 48px;
     color: #808995;
@@ -28,7 +28,8 @@ h3
 }
 .parent 
 {
-    margin: 30px 0;
+    margin: 30px 0 0 0;
+    height: 90vh;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     grid-template-rows: 1fr;
@@ -46,7 +47,7 @@ h3
 .r-hex {
   overflow: hidden;
   display: inline-block;
-  margin: 3em 3em;
+  margin: 5em 3em 0 0;
   width: 350px; height: 316px;
   transform: rotate(-30deg) skewX(30deg);
   border-radius: 20px;
@@ -86,9 +87,44 @@ h3
   font-size:18px;
 }
  
-
+.about
+{
+    height: 100vh;
+    line-height: 2;
+    font-size: 20px;
+}
+.about h3
+{
+    font-size: 48px;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.about p
+{
+    margin: 0 30px;
+    font-size: 16px;
+}
+.about h3:before,
+.about h3:after {
+    background-color: #808995;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+}
+.about h3:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.about h3:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
   .topnav {
     overflow: hidden;
+    height: 10vh;
   }
   
   .topnav a {

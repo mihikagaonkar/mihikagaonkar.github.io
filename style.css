@@ -93,7 +93,7 @@ body
     line-height: 2;
     font-size: 20px;
 }
-.about h3
+.about h3, .projects h3
 {
     font-size: 48px;
     text-align: center;
@@ -101,11 +101,11 @@ body
 }
 .about p
 {
-    margin: 0 30px;
+    margin: 10px 30px;
     font-size: 16px;
 }
-.about h3:before,
-.about h3:after {
+.about h3:before, .about h3:after, .projects h3:before, .projects h3:after
+{
     background-color: #808995;
     content: "";
     display: inline-block;
@@ -114,14 +114,69 @@ body
     vertical-align: middle;
     width: 40%;
 }
-.about h3:before {
+.about h3:before, .projects h3:before
+{
     right: 0.5em;
     margin-left: -50%;
 }
-.about h3:after {
+.about h3:after, .projects h3:after 
+{
     left: 0.5em;
     margin-right: -50%;
 }
+.projects-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: stretch;
+  gap: 2em;
+	padding: 2em 0 5em 0;
+  margin: 0 1em;
+  }
+  .project-card {
+    padding: 1em;
+    border: 1px solid #808995;
+    border-radius: 5px;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+    border-radius: 5px;
+  }
+  .project-name {
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: 20px;
+    font-size: clamp(18px, 2vw, 20px);
+  }
+  .project-descp,
+.project-links {
+	margin-bottom: 1em;
+	line-height: 1.4em;
+	font-size: 16px;
+	font-size: clamp(15px, 2vw, 17px);
+}
+.project-links a 
+{
+  color: #808995;
+}
+.project-descp p {
+	margin-bottom: 0.5em;
+}
+
+.project-tech {
+	background-color: #4242425e;
+	width: fit-content;
+	padding: 0.4em 1em;
+	margin: 2em 0 1em 0;
+	border-radius: 1em;
+	line-height: 1.5em;
+}
+
   .topnav {
     overflow: hidden;
     height: 10vh;

@@ -176,6 +176,60 @@ body
 	border-radius: 1em;
 	line-height: 1.5em;
 }
+.contact
+{
+  height: 100vh;
+}
+.contact h1
+{
+  text-align: center;
+}
+
+
+
+
+.socials {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+  height: 50vh;
+}
+.socials li
+{
+  height: 100px;
+  margin: 0 20px;
+  /* border: 1px solid red; */
+}
+
+.icon {
+  display: block;
+	position: relative;
+	font-size: 1.5em;
+  width: 60px;
+  height: 60px;
+	color: #c2c2c2;
+	background-color: rgba(0, 0, 0, 0.3);
+	border: 1px solid rgba(255, 255, 255, 0.315);
+  border-radius: 100%;
+	transition: 0.5s all ease;
+  text-decoration: none;
+  /* border: 1px solid blue; */
+
+}
+.icon i
+{
+ overflow: hidden;
+ margin: 15px 0;
+ align-items: center;
+ justify-content: center;
+ align-content: center;
+ display: flex;
+ list-style: none;
+text-decoration: none;
+}
+
 
   .topnav {
     overflow: hidden;

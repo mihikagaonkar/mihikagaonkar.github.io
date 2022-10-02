@@ -70,14 +70,14 @@ body
 }
 .r-hex:first-child .r-hex-inner:before, .r-hex-inner-2 {
   transform: skewX(-30deg) rotate(60deg) skewX(30deg);
-  background: #64daff;
   content: '';
   border-radius: 20px;}
 .r-hex-inner-2:before {
   margin-top: -15px;
   height: 350px;
   transform: skewX(-30deg) rotate(-90deg);
-  background: url(Mihika.png) ;
+  background: url('static/images/Mihika.jpeg') ;
+  background-position: center;
   background-size: cover;
   text-align: center;
   content: '';

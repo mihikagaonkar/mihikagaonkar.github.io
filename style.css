@@ -89,22 +89,21 @@ body
  
 .about
 {
-    height: 100vh;
     line-height: 2;
     font-size: 20px;
 }
-.about h3, .projects h3
+.section-title
 {
     font-size: 48px;
     text-align: center;
     margin: 0 0 20px 0;
 }
-.about p
+.about p, .skills p
 {
     margin: 10px 30px;
     font-size: 16px;
 }
-.about h3:before, .about h3:after, .projects h3:before, .projects h3:after
+.section-title:before, .section-title:after
 {
     background-color: #808995;
     content: "";
@@ -114,12 +113,12 @@ body
     vertical-align: middle;
     width: 40%;
 }
-.about h3:before, .projects h3:before
+.section-title:before
 {
     right: 0.5em;
     margin-left: -50%;
 }
-.about h3:after, .projects h3:after 
+.section-title:after
 {
     left: 0.5em;
     margin-right: -50%;

@@ -261,6 +261,25 @@ text-decoration: none;
     .topnav a.icon {
       float: right;
       display: block;
+      
+    }
+    .topnav a.active
+    {
+      display: none;
+    }
+    .topnav
+    {
+      height: 40vh;
+      display: flex;
+		flex-direction: column;
+		position: absolute;
+		right: 1.5vh;
+		padding: 0.5em 0em;
+		z-index: 1;
+		border-radius: 5px;
+		background-color: var(--bg-color);
+		border: 1px solid var(--border-color);
+		overflow-y: scroll;
     }
   }
   
@@ -275,5 +294,20 @@ text-decoration: none;
       float: none;
       display: block;
       text-align: left;
+      
+    }
+    .parent 
+{
+    margin: 0 30px ;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 0 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+    .r-hex
+    {
+      margin: 50% 0;
     }
   }

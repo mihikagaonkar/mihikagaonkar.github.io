@@ -202,7 +202,7 @@ body
   /* border: 1px solid red; */
 }
 
-.icon {
+.social-icon {
   display: block;
 	position: relative;
 	font-size: 1.5em;
@@ -217,7 +217,7 @@ body
   /* border: 1px solid blue; */
 
 }
-.icon i
+.social-icon i
 {
  overflow: hidden;
  margin: 15px 0;

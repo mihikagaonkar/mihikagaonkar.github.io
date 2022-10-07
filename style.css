@@ -117,11 +117,18 @@ body
   left: 0.5em;
   margin-right: -50%;
 }
-.about p, .skills p 
+.about p, .skills p, .internships p
 {
-  margin: 0 2em;
+  margin: 0 2rem;
   line-height: 2;
   font-size: 20px;
+}
+.company-name
+{
+  font-size: 32px;
+  margin: 0 2rem;
+  font-weight: lighter;
+
 }
 .projects-wrapper {
   display: grid;

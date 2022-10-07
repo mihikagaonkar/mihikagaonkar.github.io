@@ -92,36 +92,34 @@ body
     line-height: 2;
     font-size: 20px;
 }
-.section-title
-{
-    font-size: 48px;
-    text-align: center;
-    margin: 0 0 20px 0;
+
+.section-title {
+  overflow: hidden;
+  text-align: center;
+  font-size: 48px;
+  margin: 0 20px;
+
 }
-.about p, .skills p
-{
-    margin: 10px 30px;
-    font-size: 16px;
+
+.section-title:before,
+.section-title:after {
+  background-color: #808995;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
 }
-.section-title:before, .section-title:after
-{
-    background-color: #808995;
-    content: "";
-    display: inline-block;
-    height: 5px;
-    position: relative;
-    vertical-align: middle;
-    width: 40%;
+
+.section-title:before {
+  right: 0.5em;
+  margin-left: -50%;
 }
-.section-title:before
-{
-    right: 0.5em;
-    margin-left: -50%;
-}
-.section-title:after
-{
-    left: 0.5em;
-    margin-right: -50%;
+
+.section-title:after {
+  left: 0.5em;
+  margin-right: -50%;
 }
 .projects-wrapper {
   display: grid;

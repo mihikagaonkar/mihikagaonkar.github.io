@@ -28,7 +28,7 @@ body
 }
 .parent 
 {
-    margin: 30px 0 0 0;
+    margin: 2em 0 ;
     max-height: 100vh;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
@@ -39,9 +39,7 @@ body
     
 .intro 
 { 
-    margin: 25px 50px;
-    /* border: 2px red solid;  */
-    
+    margin: 25px 50px;    
 }
 .intro-responsive
 {
@@ -56,7 +54,6 @@ body
   transform: rotate(-30deg) skewX(30deg);
   border-radius: 20px;
   grid-area: 1 / 2 / 2 / 3; 
-  /* border: 2px red solid; */
 }
 .r-hex *, .r-hex *:before {
   display: block;
@@ -90,18 +87,13 @@ body
   text-shadow: 0 0 3px #000;
   font-size:18px;
 }
- 
-.about
-{
-    line-height: 2;
-    font-size: 20px;
-}
+
 
 .section-title {
   overflow: hidden;
   text-align: center;
   font-size: 48px;
-  margin: 0 20px;
+  margin: 0 1em;
 
 }
 
@@ -124,6 +116,12 @@ body
 .section-title:after {
   left: 0.5em;
   margin-right: -50%;
+}
+.about p, .skills p 
+{
+  margin: 0 2em;
+  line-height: 2;
+  font-size: 20px;
 }
 .projects-wrapper {
   display: grid;

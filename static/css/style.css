@@ -29,17 +29,19 @@ body
 .parent 
 {
     margin: 2em 0 ;
-    max-height: 100vh;
+    height: 90vh;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    overflow: hidden;
 }
     
 .intro 
 { 
-    margin: 25px 50px;    
+    margin: 5rem 5rem 0 5rem;    
+
 }
 .intro-responsive
 {
